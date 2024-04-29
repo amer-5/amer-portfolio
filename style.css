@@ -1,0 +1,72 @@
+@font-face {
+  font-family: Roundo;
+  src: url(./sources/Roundo-Bold.otf);
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: #374151;
+  border: 4px solid #374151;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #374151;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #374151;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-image: linear-gradient(#ff497c, #ff9500, #a78bfa);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  color: white;
+}
+
+.page-body {
+  background-image: url(./sources/pozadina.jpg);
+  background-size: cover;
+}
+
+.nav-link {
+  font-family: Roundo;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav ul a {
+  text-decoration: none;
+  margin-right: 20px;
+  padding-bottom: 0.5rem;
+  position: relative;
+}
+
+.nav ul a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ff497c;
+  transition: width 0.2s;
+}
+
+.nav ul a:hover::after,
+.nav ul a.active::after {
+  width: 100%;
+}
