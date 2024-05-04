@@ -31,7 +31,7 @@
 * {
   margin: 0;
   padding: 0;
-  text-decoration: none !important;
+  text-decoration: none;
   color: white;
 }
 
@@ -69,4 +69,48 @@
 .nav ul a:hover::after,
 .nav ul a.active::after {
   width: 100%;
+}
+
+.about-me-text {
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
+    Liberation Mono, monospace;
+}
+
+.custom-shadow {
+  box-shadow: 10px 10px 0px black;
+}
+
+.terminal-body div,
+#typingMessages {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    Liberation Mono, Courier New, monospace;
+  color: #7afb4c;
+}
+
+.console {
+  height: 26.5rem;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.5);
+}
+
+#typingMessages::after {
+  content: "";
+  display: inline-block;
+  position: relative;
+  height: 19px;
+  transform: translateY(25%);
+  width: 2px;
+  background-color: #7afb4c;
+  transition: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

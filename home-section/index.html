@@ -18,9 +18,9 @@
   </head>
   <body>
     <!--Body of the page-->
-    <div class="page-body m-0">
+    <div class="page-body m-0 pt-6">
       <div
-        class="nav flex flex-row justify-between container relative p-6 mx-auto"
+        class="nav flex flex-row justify-between container relative p-8 mx-24"
       >
         <a
           href="../home-section/index.html"
@@ -68,11 +68,62 @@
           </div>
         </div>
       </div>
-      <div class="hero h-screen">
-        <div>
-          
+      <div class="hero h-screen mx-40 mt-36 flex justify-between">
+        <div class="w-1/2 h-2/5 flex flex-col justify-evenly">
+          <div
+            id="typing"
+            class="inline-block font-bold text-center text-white break-words whitespace-pre-line xs:text-3xl sm:text-4xl md:text-left md:text-5xl xl:text-6xl h-16 mb-4"
+          ></div>
+          <div
+            class="about-me-text text-lg text-center text-white text-darkGrayishBlue lg:text-xl md:text-left md:text-md md:mt-12 technologyFont mt-4"
+          >
+            Hi, I am
+            <span class="underline underline-offset-4">Amer Lopo</span> 👋🏻
+            <br />
+            I am on road to become Back-end developer. <br />
+            I love to code and have an immense passion for coding.
+          </div>
+          <a
+            href="https://github.com/amer-5/"
+            class="uppercase bg-gradient-to-r from-orange-500 to-pink-500 p-4 lg:w-1/2 w-full rounded-3xl -skew-x-12 z-10 custom-shadow flex justify-around items-center mt-4"
+            ><span class="text-lg">connect with me</span>
+            <i class="fa fa-user-friends text-2xl"></i>
+          </a>
+        </div>
+        <div class="w-1/2 flex justify-center">
+          <!-- Console -->
+          <div class="console w-full -mt-12">
+            <div class="w-full h-10 bg-white flex rounded-t-md">
+              <div class="wrapper ml-2 flex items-center">
+                <div
+                  class="w-3 h-3 m-1 bg-red-400 rounded-full border border-red-500"
+                ></div>
+                <div
+                  class="w-3 h-3 m-1 bg-yellow-400 rounded-full border border-yellow-500"
+                ></div>
+                <div
+                  class="w-3 h-3 m-1 bg-green-400 rounded-full border border-green-500"
+                ></div>
+              </div>
+              <div
+                class="terminal-title text-black w-full text-center flex items-center justify-center -ml-12"
+              >
+                console
+              </div>
+            </div>
+            <div class="terminal-body bg-black h-96 w-full rounded-b-md">
+              <div class="pt-2 pl-3">
+                root@<span class="text-orange-500">amer</span>:~# echo
+                <span class="text-orange-500">'Welcome to my portfolio'</span>;
+                <br />
+                root@<span class="text-orange-500">amer</span>:~#
+                <span id="typingMessages"></span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    <script src="../home-section/script.js"></script>
   </body>
 </html>
