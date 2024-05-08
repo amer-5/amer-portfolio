@@ -37,6 +37,7 @@
 
 .page-body {
   background-image: url(./sources/pozadina.jpg);
+  background-repeat: repeat-y;
   background-size: cover;
 }
 
@@ -87,6 +88,11 @@
   color: #7afb4c;
 }
 
+.techFont {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    Liberation Mono, Courier New, monospace;
+}
+
 .console {
   height: 26.5rem;
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.5);
@@ -113,4 +119,10 @@
   100% {
     opacity: 1;
   }
+}
+
+
+
+h1.active {
+ border-bottom: 1px solid #ff497c; 
 }
