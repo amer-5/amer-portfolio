@@ -33,6 +33,7 @@
   padding: 0;
   text-decoration: none;
   color: white;
+  transition: .3s;
 }
 
 body {
