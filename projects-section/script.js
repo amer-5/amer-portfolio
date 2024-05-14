@@ -21,7 +21,7 @@ const listProjects = (projects) => {
     card.className = "card rounded-xl";
     const popUp = document.createElement("div");
     popUp.className =
-      "hidden flex-col fixed inset-0 left-1/2 -translate-x-[calc(50%+.25rem)] md:-translate-x-[calc(50%+2rem)] z-50 w-screen md:w-full box-border outline-none mx-1 my-1 sm:mx-6 sm:my-16 max-w-2xl md:rounded-xl md:max-h-[calc(100%-7.5rem)] border-[#292f46] bg-[#2f3a4c] dark:bg-[#2f3a4c] text-[#fff] mt-0 xs:mt-20";
+      "hidden flex-col fixed inset-0 left-1/2 -translate-x-[calc(50%+.25rem)] md:-translate-x-[calc(50%+2rem)] z-50 w-screen md:w-full box-border outline-none mx-1 my-1 sm:mx-6 sm:my-16 max-w-2xl md:rounded-xl md:max-h-[calc(100%-7.5rem)] border-[#292f46] bg-[#2f3a4c] text-[#fff] mt-0 xs:mt-20";
 
     function openPopUp() {
       pageBody.style.opacity = "0.5";

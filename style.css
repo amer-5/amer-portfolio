@@ -33,7 +33,7 @@
   padding: 0;
   text-decoration: none;
   color: white;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 body {
@@ -122,8 +122,21 @@ body {
   }
 }
 
-
-
 h1.active {
- border-bottom: 1px solid #ff497c; 
+  border-bottom: 1px solid #ff497c;
+}
+
+.hamburgerMenu {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25px;
+  height: 18px;
+}
+
+.hamburgerMenu span {
+  height: 2px;
+  width: 25px;
+  background-color: white;
 }
