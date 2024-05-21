@@ -42,6 +42,12 @@ body {
   background-size: cover;
 }
 
+@media only screen and (max-width: 768px) {
+  body {
+    background-size: 200%;
+  }  
+}
+
 .nav-link {
   font-family: Roundo;
 }

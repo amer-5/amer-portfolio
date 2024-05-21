@@ -76,7 +76,14 @@ const listProjects = (projects) => {
     const closePopUpButton = document.getElementById(
       `closePopUpButton-${index}`
     );
+
     closePopUpButton.addEventListener("click", closePopUp);
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        closePopUp();
+      }
+    });
   });
 };
 
