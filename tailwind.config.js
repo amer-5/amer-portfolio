@@ -5,6 +5,7 @@ module.exports = {
     "./about-section/**/*.html",
     "./home-section/**/*.html",
     "./projects-section/**/*.html",
+    "./projects-section/**/*.js",
   ],
   theme: {
     extend: {},

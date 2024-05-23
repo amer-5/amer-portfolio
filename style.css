@@ -146,3 +146,7 @@ h1.active {
   width: 25px;
   background-color: white;
 }
+
+.bg-black40 {
+  background-color: rgba(0, 0, 0, 0.4);
+}
