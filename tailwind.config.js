@@ -1,15 +1,12 @@
-// tailwind.config.js
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: [
-    "./src/**/*.html",
-    "./src/**/*.js",
-    // Add any other files that contain your HTML/JS here
+  content: [
+    "./src/**/*.{html,js}",
+    "./about-section/**/*.html",
+    "./home-section/**/*.html",
+    "./projects-section/**/*.html",
   ],
-  darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
-  },
-  variants: {
     extend: {},
   },
   plugins: [],
