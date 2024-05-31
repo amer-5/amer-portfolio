@@ -60,8 +60,8 @@ const listProjects = (projects) => {
               <img src="${project.icon}" class="relative z-10 opacity-0 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none transition-transform-opacity motion-reduce:transition-none !duration-300 object-cover rounded-full w-14 h-14" data-loaded="true">
             </div>
             <div class="flex flex-col rounded-xl">
-              <p class="font-mono text-[0.8rem] text-white/60">${project.title}</p>
-              <p class="font-mono text-[0.65rem] text-white/60">${project.shortDescription}</p>
+            <p class="font-mono text-[0.65rem] text-white/60">${project.shortDescription}</p>
+            <p class="font-mono text-[0.8rem] text-white/60">${project.title}</p>
             </div>
           </div>
         </div>
