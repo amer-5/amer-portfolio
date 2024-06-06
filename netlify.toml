@@ -1,6 +1,6 @@
 [build]
   publish = "home-section"
-  command = "npm run build" 
+  command = "npm run build"
   publish = "dist"
 
 [[redirects]]
