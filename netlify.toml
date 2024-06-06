@@ -3,6 +3,4 @@
   publish = "home-section"
 
 [[redirects]]
-  from = "/*"
-  to = "/home-section/index.html"
   status = 200
