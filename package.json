@@ -100,7 +100,7 @@
     "yaml": "^2.4.2"
   },
   "scripts": {
-    "build:css": "npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch",
+    "build:css": "npx tailwindcss -i ./src/styles.css -o ./dist/styles.css",
     "build": "npm run build:css"
   }
 }

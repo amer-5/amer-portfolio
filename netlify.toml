@@ -1,5 +1,8 @@
 [build]
-  command = "npm run build:css"
+command = "npm run build"
+publish = "dist"
 
 [[redirects]]
-  status = 200
+from = "/*"
+to = "/home-section.html"
+status = 200
