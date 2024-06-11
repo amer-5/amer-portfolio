@@ -1,6 +1,5 @@
 [build]
   command = "npm run build:css"
-  publish = "home-section"
 
 [[redirects]]
   status = 200
