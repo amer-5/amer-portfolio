@@ -42,9 +42,9 @@ body {
   background-size: cover;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   body {
-    background-size: 200%;
+    background-size: 150% 250%;
   }  
 }
 
