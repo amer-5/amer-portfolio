@@ -9,8 +9,8 @@ const projects = [
       Pogledajte naše prethodne projekte i uvjerite se u kvalitetu našeg rada! 📸👀 \n
       Započnite svoj sljedeći građevinski projekt s nama! Kontaktirajte nas putem web stranice. 📧🤝`,
     shortDescription: "Vlašić gradnja je građevinska firma u Travniku.",
-    image: "../sources/vlasic.png",
-    icon: "../sources/vlasic-icon.png",
+    image: "./sources/vlasic.png",
+    icon: "./sources/vlasic-icon.png",
   },
 ];
 
